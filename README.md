@@ -32,6 +32,7 @@ Clone the repository and install the necessary dependencies:
 git clone https://github.com/Paramahir/Lightweight-Brain-Tissue-Segmentation.git
 cd Lightweight-Brain-Tissue-Segmentation
 pip install -r requirements.txt
+```
 
 ## Usage
 
@@ -42,7 +43,7 @@ To segment brain tissue from your own MRI images:
 
 ```bash
 python main.py --input_dir path/to/images --output_dir path/to/save/segmented_images
-
+```
 ## Training
 
 To train the model on your own dataset:
@@ -52,7 +53,7 @@ To train the model on your own dataset:
 
 ```bash
 python train.py
-
+```
 ## Evaluation
 
 To evaluate the trained model on a test dataset:
@@ -60,3 +61,4 @@ To evaluate the trained model on a test dataset:
 ```bash
 
 python evaluate.py --test_data path/to/test_data
+```
